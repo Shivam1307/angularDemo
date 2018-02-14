@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    color: white;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/coffeehouse.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+mat-dialog-container {
+    position: fixed;
+    left: 20%;
+    top: 0%;
+    background-color: white;
+    z-index: 100000;
+  }
+  .jumbotron{
+      background: none;
+  }
+  .middleBody{
+      height: 500px
+  }
+  .selected{
+      background-color: black;
+  }
+  

@@ -1,14 +1,14 @@
 div.container {
     width: 100%;
     border: 1px solid gray;
-    background-image: url("../assets/home.jpg");
-    height:500px;
+    background-image: url("../../assets/home.jpg");
+    color: white;
+    height: 100%;
 }
 
 header, footer {
     padding: 1em;
     color: white;
-    background-color: black;
     clear: left;
     text-align: center;
 }
@@ -36,3 +36,4 @@ article {
     overflow: hidden;
     height: 500px;
 }
+

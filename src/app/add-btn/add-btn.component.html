@@ -1,0 +1,10 @@
+<div><input #newEmployee
+(keyup.enter)="addEmployeeName(newEmployee.value)">
+
+<button (click)="addEmployeeName(newEmployee.value)">Add</button>
+<button (click)="searchEmployeeName(newEmployee.value)">Search</button>
+<ul>
+  <li *ngFor="let Employee of employees">{{Employee}}</li>
+</ul>
+</div>
+
